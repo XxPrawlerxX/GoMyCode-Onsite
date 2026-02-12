@@ -1,0 +1,3 @@
+Assignment 1
+1) List and explain all HTML elements.
+2) List and explain all CSS properties.
