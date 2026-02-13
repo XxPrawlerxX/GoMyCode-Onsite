@@ -4,7 +4,7 @@ body{
     justify-content: center;
     width: 100%;
     font-family: sans-serif;
-    background-color: rgb(245, 235, 235);
+    background-color: rgb(255, 248, 248);
 }
 .container{
     width: 350px;
@@ -20,9 +20,16 @@ body{
     width: 100%;
     height: 30px;
     margin: 15px 0px;
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid;
+    padding-bottom:10px ;
+    margin-bottom: 50px;
 }
 .blue{
     color: rgb(6, 133, 206);
+}
+.blue:hover{
+    color: gray;
 }
 .logo{
     width: 150px;
@@ -82,6 +89,9 @@ body{
     text-align: center;
     font-size: 14px;
     margin: 5px 0px 15px;
+    width: 300px;
+    color: gray;
+    font-size: 16px;
 }
 .btn_contact{
     background-color: rgb(6, 133, 206);
@@ -94,4 +104,121 @@ body{
 }
 .container2{
     background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(44, 44, 44, 0.3);
+    width: 300px;
+}
+.about{
+    margin: 100px 20px;
+}
+.pfp{
+    width: max-content;
+}
+.profile_pic{
+    width: 80px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.me{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 0px;
+    border: 0px;
+}
+.desc_full{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+.highlights1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+.highlight{
+    padding: 4px 10px;
+    border: 1px;
+    border-color:rgb(6, 133, 206) ;
+    border-radius: 10px;
+    border-style: solid;
+}
+.highlight:hover{
+    color: white;
+    background-color: rgb(6, 133, 206) ;
+    border-color: white;
+}
+.highlights2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.proj_head{
+    display: flex;
+    align-items: center;
+    margin: 22px;
+}
+.head{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    padding: 0px;
+    border: 0px;
+}
+.side_high{
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(to right , rgb(6, 133, 206) , white);
+}
+.proj{
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,0) 50%,
+      white 50%
+    ),
+    url("place1.png");
+
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin: 30px 20px;
+}
+.minor_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 50%;
+    padding-top: 60%;
+}
+.head1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px 5px;
+}
+.desc1{
+    color: gray;
+    margin: 10px 0px;
+}
+.linkers{
+    margin: 5px 0px 0px;
+}
+.github{
+    color: gray;
 }
