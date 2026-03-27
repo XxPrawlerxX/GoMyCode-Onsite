@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>To-Do List</title>
+    </head>
+    <body class="w-[500px] mx-auto bg-yellow-200">
+        <header class="w-full top-0">
+            <p class="w-full font-bold text-blue-950 text-6xl underline pt-10">
+                To-Do
+            </p>
+            <p class="w-full font-semibold text-gray-500 text-sm py-5">
+                Enter your to-dos
+            </p>
+        </header>
+        <main class="w-[500px]">
+            <div class="flex justify-between">
+                <input type="text" id="todoInput" class="border py-1 px-2 rounded-lg hover:shadow-sm w-80">
+                <button id="addButton" class="w-auto text-blue-950 border border-blue-950 rounded-xl px-6 py-3 cursor-pointer bg-transparent  hover:bg-blue-950 hover:text-white hover:border-none">
+                    Add New To-Do
+                </button>
+            </div>
+            <div class="w-[500px]">
+                <ul id="todoList" class="w-full">
+                    <span class="flex justify-between w-full font-bold text-xl text-blue-950">
+                        <span class="">To-Do</span>
+                        <span class="">Done</span>
+                        <span class="">Delete</span>
+                    </span>
+                </ul>
+            </div>
+        </main>
+        <footer class="w-full">
+            <p>
+
+            </p>
+        </footer>
+
+        <script src="Practice.js"></script>
+
+    </body>
+</html>

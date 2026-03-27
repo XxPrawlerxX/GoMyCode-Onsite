@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment3</title>
+</head>
+<body class="mx-auto max-w-[1200px] sm:w-[500px] md:w-[650px] lg:w-[950px] xl:w-[1200px]">
+    <header class="flex w-full items-center justify-between border-b border-b-blue-400">
+        <div class="flex w-[20%] items-center ">
+            <img src="ChatGPT Image Mar 19, 2026, 12_15_23 PM.png" alt="" class="w-[140px] bg-none hover:cursor-pointer">
+            <div class="w-[80px] text-nowrap text-left italic font-bold text-blue-400">
+                SAYS HI!!!!
+            </div>
+        </div>
+        <div class="hidden lg:flex items-center">
+            <nav class="flex text-center justify-center items-center gap-10">
+                <div class="flex items-center gap-5 text-blue-400 underline italic">
+                    <p class=""><a href="" class="no-underline  hover:cursor-pointer hover:text-gray-300 hover:underline">Home</a></p>
+                    <p class=""><a href="" class="no-underline  hover:cursor-pointer hover:text-gray-300 hover:underline">About</a></p>
+                    <p class=""><a href="" class="no-underline  hover:cursor-pointer hover:text-gray-300 hover:underline">Products</a></p>
+                    <p class=""><a href="" class="no-underline  hover:cursor-pointer hover:text-gray-300 hover:underline">Contact us</a></p>
+                    <p class=""><a href="" class="no-underline  hover:cursor-pointer hover:text-gray-300 hover:underline">Premium</a></p>
+                </div>
+                <div class="flex items-center text-nowrap gap-3">
+                    <button class="px-6 py-3 bg-blue-400 text-white rounded-3xl hover:cursor-pointer border hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:border">Log in</button>
+                    <button class="px-6 py-3 bg-blue-400 text-white rounded-3xl hover:cursor-pointer border hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:border">Sign up</button>
+                </div>
+            </nav>
+            <div class="flex w-auto lg:hidden">
+                <p class="text-3xl text-black">
+                    Nav
+                </p>
+            </div>
+        </div>
+    </header>
+    <main class="flex w-full mx-auto justify-center h-lvh">
+        <div class="w-[350px] gap-5 flex justify-center flex-col items-center bg-blue-50 h-[400px] rounded-xl my-auto">
+            <div class="">
+                <img src="ChatGPT Image Mar 19, 2026, 12_15_23 PM.png" alt="" class="w-[100px] h-[90px] rounded-full border border-blue-400  hover:cursor-pointer hover:bg-blue-50 hover:border-blue-50 bg-white">
+            </div>
+            <div class="flex text-center flex-col" id="">
+                <p class="text-xl text-blue-400 italic font-serif font-bold">
+                    Log In
+                </p>
+                <p class="text-sm font-serif italic font-semibold text-blue-400" id="message">
+                    Enter Username and Password:
+                </p>
+            </div>
+            <div class=" flex flex-col justify-center items-center gap-5">
+                <div class="">
+                    <span class=" text-blue-400 italic font-serif">
+                        Username: 
+                    </span>
+                    <input type="text" name="" id="username" class=" border-b border-b-blue-400" placeholder="">
+                </div>
+                <div class="">
+                    <span class=" text-blue-400 italic font-serif">
+                        Password: 
+                    </span>
+                    <input type="password" name="" id="password" class="border-b border-b-blue-400" placeholder="">
+                </div>
+                <button class="px-6 py-3 bg-blue-400 text-white rounded-xl hover:cursor-pointer border hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:border" id="loginBtn">
+                    Log In
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="">
+        <p class="flex border-t border-t-blue-400 w-full justify-center py-3 text-black">
+                Copyright @Yvonne_ <span class="text-transparent hover:bg-none">space</span> all rights reserved >_<
+        </p>
+    </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>

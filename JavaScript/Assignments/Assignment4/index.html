@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading</title>
+</head>
+
+<body class="bg-blue-50">
+    <header class="bg-blue-400 text-white px-3 py-2 sm:px-4 sm:py-2 lg:px-6 lg:py-4 ">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="Logo" class="w-15 h-10 bg-none rounded">
+                <p class="hidden sm:flex text-lg font-semibold">Grading System</p>
+            </div>
+            <div>
+                <span class="hidden sm:flex text-white font-bold hover:cursor-pointer hover:underline hover:text-gray-200 ">Previous Semesters</span>
+                <span class="font-extrabold text-4xl hover:cursor-pointer px-4 hover:text-gray-200 sm:hidden "> < </span>
+            </div>
+        </div>
+    </header>
+    <main class="flex flex-col items-center mt-10">
+        <div class="bg-white p-6 rounded-xl shadow-md w-80">
+            <p class="text-xl font-bold mb-2" id="titleText">
+                Input Grade
+            </p>
+            <p class="text-gray-600 mb-4" id="inputPrompt">
+                Please enter your full name and grade
+            </p>
+            <div class="mb-3">
+                <span class="block text-sm mb-1">Full Name</span>
+                <input 
+                    type="text" 
+                    id="fullName" 
+                    class="w-full border border-blue-400 rounded px-3 py-2"
+                    placeholder="Enter your full name"
+                >
+            </div>
+            <div class="mb-4">
+                <span class="block text-sm mb-1">Grade</span>
+                <input 
+                    type="number" 
+                    id="gradeInput" 
+                    class="w-full border border-blue-400 rounded px-3 py-2"
+                    placeholder="0 - 100"
+                    min="0"
+                    max="100"
+                >
+            </div>
+            <button class="w-full bg-blue-400 text-white py-2 rounded hover:bg-blue-300" id="submitBtn">
+                Upload Grade
+            </button>
+
+        </div>
+        <div class="mt-6 text-center bg-white p-4 rounded shadow w-80" id="outputBox">
+            <p class="pb-5 text-blue-400 text-left mx-4 px-2 border-l-2 border-l-blue-400 underline font-semibold text-xl italic">Student List:</p>
+            <p id="outputText" class="text-white"></p>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

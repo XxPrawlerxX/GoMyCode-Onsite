@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>To-Do List</title>
+    </head>
+    <body class="w-[600px] mx-auto bg-[#FAFAD2] flex flex-col justify-center align-middle">
+        <header class="w-full border-t mt-5 border-x border-blue-950 px-5">
+            <p class="w-full font-bold text-blue-950 text-6xl underline pt-10">
+                To-Do
+            </p>
+            <p class="w-full font-semibold text-gray-500 text-sm py-5">
+                Enter your to-dos
+            </p>
+        </header>
+        <main class="w-full border-x border-x-blue-950 px-5 min-h-[350px]">
+            <div class="flex justify-between">
+                <input type="text" id="todoInput" class="border border-blue-950 py-1 px-2 rounded-lg hover:shadow-lg w-80 bg-gray-100" placeholder="Input task here.">
+                <button id="addButton" class="w-auto text-blue-950 border border-blue-950 rounded-xl px-6 py-3 cursor-pointer bg-transparent  hover:bg-blue-950 hover:text-white">
+                    Add New To-Do
+                </button>
+            </div>
+            <div class="w-full">
+                <div class="flex align-middle font-bold text-blue-950 text-xl">
+                    <div class="w-[100px]">Done</div>
+                    <div class="w-[300px]">Task</div>
+                    <div class="w-[100px]">Delete</div>
+                    <div class="w-[80px]">Edit</div>
+                </div>
+                <ul id="todoList" class="w-full">
+                    
+                </ul>
+            </div>
+            <div class="mt-[70px]">
+                <button class="w-auto text-blue-950 border border-blue-950 rounded-xl px-6 py-3 cursor-pointer bg-transparent font-bold  hover:bg-blue-950 hover:text-white" id="clearAll">Clear all tasks.</button>
+            </div>
+        </main>
+        <footer class="w-full border-x border-x-blue-950 px-5 pt-20 border-b border-b-blue-950 pb-5">
+            <p class="flex border-t border-t-blue-950 w-full justify-center pt-3">
+                Copyright @Yvonne_ <span class="text-transparent hover:bg-none">space</span> all rights reserved >_<
+            </p>
+        </footer>
+
+        <script src="assignment2.js"></script>
+
+    </body>
+</html>
