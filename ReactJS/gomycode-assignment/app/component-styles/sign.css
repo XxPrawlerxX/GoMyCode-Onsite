@@ -1,0 +1,167 @@
+.sign_div{
+    margin: 15vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerSign{
+    background-color: rgb(47, 32, 54);
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Sign{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: gray;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.formDiv{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 1.5rem 0;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+.labelTag{
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+}
+.userNameInput{
+    opacity: 0.9;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+}
+.userNameInput:active{
+    opacity: 1;
+    background-color: gray;
+    color: white;
+}
+.userEmailInput{
+    opacity: 0.9;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+}
+.userEmailInput:active{
+    opacity: 1;
+    background-color: gray;
+    color: white;
+}
+.passwordInput{
+    opacity: 0.9;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    color: white;
+}
+.passwordInput:active{
+    opacity: 1;
+    background-color: gray;
+    color: white;
+}
+.signButton{
+    padding: 0.8rem 1.5rem;
+    margin: 3rem auto 1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(41, 41, 41);
+    color: gray;
+}
+.signButton:hover{
+    color: white;
+    background-color: gray;
+}
+.agreeDiv{
+    margin: 2rem 2rem 0;
+    color: gray;
+    gap: 0.5rem;
+    display: flex;
+    text-align: left;
+}
+.agreeBox{
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+}
+.highlightedText{
+    color: blueviolet;
+    text-decoration: underline;
+    opacity: 0.6;
+    font-style: italic;
+}
+.highlightedText:hover{
+    color: gray;
+}
+.signUpPrompt{
+    margin: 1rem 2rem;
+    color: gray;
+}
+.signUpLink{
+    color: blueviolet;
+    opacity: 0.6;
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+.signUpLink:hover{
+    color: gray;
+}
+.inputContainer{
+    justify-self: right;
+}
+
+@media (max-width: 35rem) {
+
+    .containerSign{
+        max-width: 30rem;
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Sign{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .formDiv{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0.5rem 0;
+        width: 90%;
+    }
+    .labelTag{
+        margin: auto;
+    }
+    .userNameInput{
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .userEmailInput{
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .passwordInput{
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .signButton{
+        margin: 1.5rem auto 0.5rem;
+    }
+    .agreeDiv{
+        margin: 1rem 0.5rem;
+    }
+    .signUpPrompt{
+        margin: 1rem 0.5rem;
+    }
+}

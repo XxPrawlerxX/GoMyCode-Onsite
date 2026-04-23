@@ -1,0 +1,73 @@
+.nav_div{
+    margin-top: 3rem;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.logo_div{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    margin: auto 2rem;
+}
+.yvonneLogo{
+    height: 3rem;
+    width: auto;
+}
+.logoText{
+    font-style: italic;
+    font-size: 1.3rem;
+    color: rgb(224, 196, 250);
+    margin-left: -1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navigation_container{
+    display: flex;
+    gap: 1rem;
+    margin: auto 3rem;
+    margin-right: 1rem;
+}
+
+.nav_item{
+    font-style: italic;
+    color: rgb(47, 32, 54);
+}
+.nav_item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(33, 32, 44);;
+}
+.dropdown_div{
+    display: none;
+}
+@media (max-width: 35rem) {
+    .dropdown_div{
+        width: 2rem;
+        height: 2rem;
+        display: block;
+        color: white;
+        margin-right: 2rem;
+    }
+    .navigation_container{
+        display: none;
+    }
+    .logo_div{
+        height: 3rem;
+        width: 3rem;
+    }
+    .logoText{
+        font-size: 1rem;
+        margin-left: -0.5rem ;
+    }
+    .yvonneLogo{
+        height: 2rem;
+        width: 2rem;
+    }
+
+}
